@@ -70,10 +70,6 @@ Short description
 
 Read the full documentation_ at ReadTheDocs_
 
-.. |sacred| replace:: ``sacred``
-.. _sacred: https://github.com/IDSIA/sacred
-.. _ReadTheDocs: https://readthedocs.org
-
 Getting Started
 ---------------
 
