@@ -1,6 +1,6 @@
 |FIXME|
 
-.. |FIXME| image:: https://raw.githubusercontent.com/FIXME/FIXME/master/docs/source/_static/logo_full.svg
+.. |FIXME| image:: https://raw.githubusercontent.com/FIXME/FIXME/main/docs/source/_static/logo_full.svg
     :alt: FIXME
 
 =====
@@ -11,15 +11,15 @@
 
 |bandit| |code_style| |mypy|
 
-.. |lint| image:: https://github.com/FIXME/FIXME/workflows/Lint/badge.svg?branch=master
+.. |lint| image:: https://github.com/FIXME/FIXME/workflows/Lint/badge.svg?branch=main
     :alt: lint status
     :target: https://github.com/FIXME/FIXME/actions?query=workflow%3A%22Lint%22
 
-.. |test| image:: https://github.com/FIXME/FIXME/workflows/Test/badge.svg?branch=master
+.. |test| image:: https://github.com/FIXME/FIXME/workflows/Test/badge.svg?branch=main
     :alt: test status
     :target: https://github.com/FIXME/FIXME/actions?query=workflow%3A%22Test%22
 
-.. |docker| image:: https://github.com/FIXME/FIXME/workflows/Docker/badge.svg?branch=master
+.. |docker| image:: https://github.com/FIXME/FIXME/workflows/Docker/badge.svg?branch=main
     :alt: docker build status
     :target: https://github.com/FIXME/FIXME/actions?query=workflow%3A%22Docker%22
 
@@ -27,7 +27,7 @@
    :alt: language grade: python
    :target: https://lgtm.com/projects/g/FIXME/FIXME/context:python
 
-.. |codecov| image:: https://codecov.io/gh/FIXME/FIXME/branch/master/graph/badge.svg
+.. |codecov| image:: https://codecov.io/gh/FIXME/FIXME/branch/main/graph/badge.svg
     :alt: codecov percentage
     :target: https://codecov.io/gh/FIXME/FIXME
 
@@ -45,7 +45,7 @@
 
 .. |license| image:: https://img.shields.io/badge/license-LGPL--3.0-blue.svg
     :alt: licence
-    :target: https://github.com/FIXME/FIXME/blob/master/LICENSE
+    :target: https://github.com/FIXME/FIXME/blob/main/LICENSE
 
 .. |fossa_licence| image:: https://app.fossa.com/api/projects/git%2Bgithub.com%2FFIXME%2FFIXME.svg?type=shield
     :alt: fossa status
@@ -69,6 +69,8 @@ Overview
 Short description
 
 Read the full documentation_ at ReadTheDocs_
+
+.. _ReadTheDocs: https://readthedocs.org
 
 Getting Started
 ---------------
@@ -125,7 +127,7 @@ Contributing
 Please read |CONTRIBUTING.rst|_ for details about how to contribute.
 
 .. |CONTRIBUTING.rst| replace:: ``CONTRIBUTING.rst``
-.. _CONTRIBUTING.rst: https://github.com/FIXME/FIXME/blob/master/.github/CONTRIBUTING.rst
+.. _CONTRIBUTING.rst: https://github.com/FIXME/FIXME/blob/main/.github/CONTRIBUTING.rst
 
 Authors
 -------
@@ -141,7 +143,7 @@ License
 
 This project is licensed under the ``GNU LESSER GENERAL PUBLIC LICENSE`` - see the LICENSE_ file for details
 
-.. _LICENSE: https://github.com/FIXME/FIXME/blob/master/LICENSE
+.. _LICENSE: https://github.com/FIXME/FIXME/blob/main/LICENSE
 
 .. image:: https://app.fossa.com/api/projects/git%2Bgithub.com%2FFIXME%2FFIXME.svg?type=large
     :alt: licence status
