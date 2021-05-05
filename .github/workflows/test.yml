@@ -10,10 +10,8 @@ on:
     # https://crontab.guru/#0_0_1_*_*
     - cron: "0 0 1 * *"
 
-test:
-  # As we are running on different environments, we are splitting the jobs
-  # https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobs
-  local:
+jobs:
+  test:
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: true
@@ -42,12 +40,10 @@ test:
         run: |
           pip install coverage
           coverage run --source=. -p -m pytest tests/
-          coverage xml
 
       - name: Upload coverage to Codecov
         # Use the v1 tag of: https://github.com/codecov/codecov-action
         uses: codecov/codecov-action@v1
         with:
-          file: ./coverage.xml
           flags: unittests
           name: codecov-umbrella
