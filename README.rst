@@ -1,3 +1,16 @@
+Python template
+================
+
+This repo is a template for python projects.
+
+To activate ``github`` functions:
+
+.. code:: sh
+
+    mv github .github
+
+---
+
 |FIXME|
 
 .. |FIXME| image:: https://raw.githubusercontent.com/FIXME/FIXME/main/docs/source/_static/logo_full.svg

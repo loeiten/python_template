@@ -112,6 +112,11 @@ dist/
 *.bak.*
 *.log.*
 *.err
+*.swp
+*.swo
+
+# vscode
+.vscode/
 
 # Mac stuff
 *.DS_Store
